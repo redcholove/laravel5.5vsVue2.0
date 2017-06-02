@@ -1,0 +1,15 @@
+$hr: #d0d0d0;
+$grey-text: #7B7B7B;
+$main-color: #2894ff;
+$blue: blue;
+@import 'login-page';
+@import 'chat-room-page';
+@import 'single-room-page';
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    //background-color: #253137;
+    -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,109 @@
+.buying-page {
+    height: 100vh;
+    width: 100%;
+    background-color: #E0E0E0;
+    padding: 0;
+    margin: 0;
+    .header {
+        float: left;
+        height: 6vh;
+        width: 100vw;
+        background-color: #2894ff;
+        .search {
+            float: left;
+            margin-left: 25vw;
+            margin-top: 1vh;
+            height: 3vh;
+            width: 30vw;
+            background-color: #0066cc;
+            border: 1px solid #0066cc;
+        }
+        .login {
+            height: 100%;
+            float: right;
+            margin-right: 5vw;
+            width: 5vw;
+            font-size: 1em;
+            background-color: #2894ff;
+            color: white;
+            font-weight: 600;
+            border: 1px solid #2894ff;
+        }
+    }
+    .content {
+        float: left;
+        height: 50vh;
+        width: 120vh;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        .img {
+            float: left;
+            background-color: white;
+            height: 50vh;
+            width: 50vh;
+            background-image: url('./../../../dist/img/apple_mac_brand_logo_dark_background_44014_3840x2400.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .detail {
+            background-color: white;
+            float: left;
+            height: 50vh;
+            width: 70vh;
+            .Name {
+                font-weight: 800;
+                color: blue;
+                font-size: 3em;
+                margin-left: 5vw;
+                height: 8vh;
+            }
+            .Des {
+                font-weight: 500;
+                color: black;
+                font-size: 2em;
+                margin-left: 5vw;
+                height: 5vh;
+            }
+	    .MaxCount {
+	    	font-weight: 500;
+		color: grey;
+		margin-left: 5vw;
+		height: 4vh;
+		font-size: 1.5em;
+	    }
+            .Count {
+                font-weight: 100;
+                color: $grey-text;
+                font-size: 1.5em;
+                margin-left: 5vw;
+                height: 5vh;
+            }
+            .add {
+                background-color: #FF5809;
+                border: 1px solid #FF5809;
+                color: white;
+                height: 5vh;
+                width: 8vw;
+                font-size: 1.5em;
+            }
+            .addreverse {
+                background-color: red;
+                border: 1px solid red;
+                color: white;
+                height: 5vh;
+                width: 8vw;
+                font-size: 1.5em;
+            }
+            .confirmbuy {
+                margin-top: 3vh;
+                margin-left: 5vw;
+                color: white;
+                background-color: blue;
+                border:  1px solid blue;
+                height: 5vh;
+                width: 8vw;
+            }
+        }
+    }
+}
